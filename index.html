@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        nav div {
+            padding: 6px;
+            margin: 4px;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .nav-img:hover {
+            background-color: #515151;
+            border-radius: 50%;
+        }
+        input {
+            all: unset;
+            color: white;
+            padding-top: 5px;
+            padding-left: 5px;
+            font-size: 16px;
+        }
+
+        .search-bar:hover {
+            background-color: #303134;
+            border: 1px solid #202124 !important;
+            box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.68);
+            -webkit-box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.68);
+            -moz-box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.68);
+        }
+
+        .voice:hover {
+            cursor: pointer;
+        }
+
+        button {
+            all: unset;
+            background-color: #303134;
+            padding: 8px 15px 8px 15px;
+            border-radius: 4px;
+            border: 1px solid  #202124;
+            margin: 4px;
+        }
+
+        button:hover {
+            border: 1px solid rgb(85, 85, 85);
+            cursor: pointer;
+        }
+        
+        .google-offer:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .polska {
+            color: #bdc1c6;
+            display: inline-block;
+            line-height: 28px;
+            font: 13px arial, sans-serif;
+        }
+
+        footer div .links div {
+            padding: 15px;
+        }
+        .a:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        
+        .b:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .c:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .d:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .e:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .f:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .g:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+       
+        footer {
+            color: #9aa0a6;
+        }
+    </style>
+</head>
+    <body 
+        style="
+        background-color: #202124;
+        height: 100vh; 
+        max-height: 100vh; 
+        color: white;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+        font: 13px arial, sans-serif;
+        margin: 0;
+    ">
+    <nav 
+        style="
+        display: flex;
+        flex-direction: rox;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-end;
+        align-items: center;
+        ">
+        
+            <div class="nav-link">Gmail</div> 
+            <div class="nav-link">Images</div>
+            <div class="nav-img" style="width: 24px; height:24px;">
+                <svg style="width: 24px; height:24px;" class="gb_Ue" focusable="false" viewBox="0 0 24 24">
+                    <path fill="#ffffff"
+                    d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+                ></path>
+        </svg>
+        </div>
+        <div class="nav-img" style="width: 32px; height: 32px;">
+            <img
+                style="width: 32px; height: 32px; border-radius: 50%;"
+                src="unnamed.png"
+                alt=""
+                />
+        </div>
+    </nav>
+    <div>
+        <div style="
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            height: calc(100vh-250px);
+            ">
+            <div>
+                <img width="270px" src="google-logo2.png" alt="" />
+            </div>
+            <!-- search bar -->
+            <div
+            class="search-bar"
+                style="
+                display: flex;
+                border: 1px solid #5f6368;
+                border-radius: 40px;
+                width: 600px;
+                padding: 10px;
+                margin-top: 25px;
+            ">
+                <div>
+                    <svg 
+                    focusable="false"
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24"
+                    style="width: 24;"
+                    >
+                        <path fill="#515151"
+                            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                        ></path>
+                    </svg>
+                </div>
+                <div style="width: 100%;">
+                    <input type="text" width="300px"/>
+                </div>
+                <div>
+                    <img class="voice" style="border-radius: 50%;" width="24px" src="voice-icon.png" alt="" />
+                </div>
+            </div>
+            <!-- buttons -->
+            <div style="margin-top: 40px;">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+            <div class="polska" style="margin-top: 30px;">
+                Google offered in: 
+                <span style="color: #8ab4f8;" class="google-offer"> polski</span>
+            </div>
+        </div>
+    </div>
+        <footer style="
+        position: absolute; 
+        bottom:0; 
+        background-color:#171717; 
+        width:100%; 
+        ">
+            <div style="
+                padding: 30px; padding: 15px 30px;
+                border-bottom: 1px solid #3c4043;
+                font-size: 15px;
+                color: #9aa0a6;
+                ">Polska</div>
+            <div style="
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-content: center;
+                justify-content: space-between;
+                align-items: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 5px;
+                padding-top: 5px;
+            ">
+                <div style="display: flex;" class="links">
+                    <div class="a">About</div>
+                    <div class="b">Advertising</div>
+                    <div class="c">Business</div>
+                    <div class="d"> How Search Works</div>
+
+                </div>
+                <div style="display: flex;" class="links">
+                    <div class="e">Privacy</div>
+                    <div class="f">Terms</div>
+                    <div class="g">Settings</div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
